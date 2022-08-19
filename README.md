@@ -24,7 +24,9 @@ Este projeto tem como finalidade disponibilizar para o usuário gerar senhas seg
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Escolher quantos caracteres a senha será gerada.
+:heavy_check_mark: `Funcionalidade 1:` Código python sendo gerado diretamente no navegador.
+
+:heavy_check_mark: `Funcionalidade 2:` Escolher quantos caracteres a senha será gerada.
 
 ## Tecnologias utilizadas
 <p>
