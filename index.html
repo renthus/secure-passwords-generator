@@ -5,14 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="secure/png" href="secure.png"/>
 
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- ### -->
+
+    <!-- pyscript -->
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <!-- ### -->
 
     <title>Gerador de senhas seguras</title>
 </head>
 <body>
+    <div>
+        <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand">Digite a quantidade de caracteres abaixo:</a>
+            <form class="d-flex" role="search">
+              <input id="quantidade" class="form-control me-2" type="search" placeholder="Digite aqui" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Gerar Senha</button>
+            </form>
+          </div>
+        </nav>
+        <div class="resultado" id="resultado_html"></div>
+    </div>
     <py-script>
+        import random
+        import string
+
+        tamanho_senha = int(16)
+        chars = string.ascii_letters + string.digits + 'ç!@#$%^&*()|-+=`~<>?:"[]\{}'
+        rnd = random.SystemRandom()
+
+        titulo = "A senha é: "
         
+        resultado = titulo + (''.join(rnd.choice(chars) for i in range(tamanho_senha)))
+
+        pyscript.write("resultado_html", resultado)
     </py-script>
 </body>
 </html>

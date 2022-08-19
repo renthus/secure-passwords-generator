@@ -1,0 +1,32 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    float: center;
+    border: 1px solid black;
+    width: 40%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.navbar {
+    margin-left: 10px;
+}
+
+.form-control {
+    margin-left: 10px;
+}
+
+.btn {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.resultado {
+    margin: 10px;
+    color: blue;
+}
