@@ -28,13 +28,13 @@
         task = []
 
         def criar_senha(*ags, **kags):
-            input_task = Element('input_task')
-            task = input_task.element.value
-            tamanho_senha = int(task)
+            input_caracter = Element('input_caracter')
+            caracter = input_caracter.element.value
+            tamanho_senha = int(caracter)
             chars = string.ascii_letters + string.digits + 'ç!@#$%^&*()|-+=`~<>?:"[]\{}'
             rnd = random.SystemRandom()
             senha = (''.join(rnd.choice(chars) for i in range(tamanho_senha)))
-            pyscript.write("tasks_criadas", senha)
+            pyscript.write("senha_criada", senha)
     </py-script>
 
     <main>
@@ -42,16 +42,16 @@
 
             <h1 style="text-align: center; font-size: 2rem;">Gerador de Senhas Seguras</h1>
             <br>
-            <input id="input_task" type="text" placeholder="Digite o número de caracteres desejado" class="form-control">
+            <input id="input_caracter" type="text" placeholder="Digite o número de caracteres desejado" class="form-control">
             <br>
-            <button id="btn_task" type="submit" class="btn btn-success" pys-onClick="criar_senha">Gerar Senha</button>
+            <button id="btn_senha" type="submit" class="btn btn-success" pys-onClick="criar_senha">Gerar Senha</button>
             <br><br>
             <hr><br>
 
             <div class="row">
                 <div class="col-md">
                     <h2 style="padding: 5px">Senha Gerada:</h2>
-                    <div id="tasks_criadas" style="background-color: gray; font-size: 1.5rem; color: white; padding: 5px">A senha será gerada aqui!</div>
+                    <div id="senha_criada" style="background-color: gray; font-size: 1.5rem; color: white; padding: 5px">A senha será gerada aqui!</div>
                 </div>
             </div>
 
