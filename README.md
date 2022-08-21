@@ -11,6 +11,8 @@
 - [Funcionalidades](#funcionalidades)
 
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
+ 
+- [Acesso ao deploy do projeto](#acesso-ao-deploy-do-projeto)
 
 - [Desenvolvedores](#desenvolvedores)
 
@@ -31,6 +33,10 @@ Este projeto foi desenvolvido com o `pyscript` e tem como finalidade, disponibil
 <img align="center" alt="Renato-javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
 <img align="center" alt="Renato-python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 </p>
+
+## Acesso ao deploy do projeto
+
+Confira o `Deploy` do projeto [aqui](https://renthus.github.io/secure-passwords-generator/).
 
 ## Desenvolvedores
 | [<img src="https://avatars.githubusercontent.com/u/49447595?v=4" width=115><br><sub>Renato Maldonado</sub>](https://github.com/renthus)
