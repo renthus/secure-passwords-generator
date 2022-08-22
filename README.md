@@ -20,6 +20,8 @@
 
 Este projeto foi desenvolvido com o `pyscript` e tem como finalidade, disponibilizar ao usuário gerar senhas consideradas seguras, utilizando caracteres diversos através de uma página web.
 
+![Senha Segura PyScript](https://user-images.githubusercontent.com/49447595/185943913-748e14fb-df34-47df-950a-787e169289c1.PNG)
+
 ## Funcionalidades
 
 :heavy_check_mark: `Funcionalidade 1:` Função em código python criada dentro da tag `py-script (executa códigos python no HTML do navegador)` para calcular senhas utilizando caracteres maiúsculos, minúsculos, números e caracteres especiais, conforme quantidade de caracteres informada pelo usuário.
